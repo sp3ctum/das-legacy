@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Das-näppäimistö
+Type=Application
+Exec=/home/mika/das_asennus/daspaalle.sh
+Terminal=false
+Icon=gnome-do
+Comment=Das-näppäimistö päälle
+Categories=Utility;

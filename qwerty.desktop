@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Qwerty-näppäimistö
+Type=Application
+Exec=/home/mika/das_asennus/qwertypaalle.sh
+Terminal=false
+Icon=gnome-do
+Comment=Qwerty-näppäimistö päälle
+Categories=Utility;
