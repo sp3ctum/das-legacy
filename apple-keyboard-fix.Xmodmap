@@ -1,0 +1,7 @@
+! Fixes a bug that occurs with an Apple USB keyboard:
+! in the bug the keys fF and \~ are switched.
+! Save as ~/.Xmodmap for automatic loading.
+! You can load this manually with the command
+!     xmodmap ~/.Xmodmap
+keycode  49 = f F f F bar brokenbar
+keycode  94 = backslash dead_tilde backslash dead_tilde
