@@ -5,3 +5,8 @@
 !     xmodmap ~/.Xmodmap
 keycode  49 = f F f F bar brokenbar
 keycode  94 = backslash dead_tilde backslash dead_tilde
+
+! Right super key should be switched with the right alt key.
+! This is done to help typing characters like [].
+keycode 108 = Super_R NoSymbol Multi_key Multi_key
+keycode 134 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
