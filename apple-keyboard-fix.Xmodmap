@@ -10,3 +10,10 @@ keycode  94 = backslash dead_tilde backslash dead_tilde
 ! This is done to help typing characters like [].
 keycode 108 = Super_R NoSymbol Multi_key Multi_key
 keycode 134 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+
+! Switch å (aring) and enter
+! This is done to help typing :)
+
+keycode 36 = aring Aring aring Aring aring Aring
+keycode 56 = Return NoSymbol Return NoSymbol Return
+
