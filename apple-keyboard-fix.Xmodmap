@@ -30,3 +30,7 @@ keycode 16 = braceleft 7 7 braceleft 7 braceleft
 keycode 17 = parenleft 8 8 parenleft bracketleft NoSymbol bracketleft NoSymbol 8 parenleft bracketleft
 keycode 18 = parenright 9 9 parenright bracketright NoSymbol bracketright NoSymbol 9 parenright bracketright
 keycode 19 = braceright 0 0 braceright degree NoSymbol degree NoSymbol 0 braceright degree
+
+! Switch BackSpace and '
+keycode  29 = BackSpace bar apostrophe bar apostrophe bar apostrophe bar
+keycode  22 = apostrophe NoSymbol BackSpace NoSymbol BackSpace BackSpace
