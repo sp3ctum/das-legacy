@@ -34,3 +34,11 @@ keycode 19 = braceright 0 0 braceright degree NoSymbol degree NoSymbol 0 braceri
 ! Switch BackSpace and '
 keycode  29 = BackSpace bar apostrophe bar apostrophe bar apostrophe bar
 keycode  22 = apostrophe NoSymbol BackSpace NoSymbol BackSpace BackSpace
+
+! Switch Control and Super_L positions.
+clear Mod4
+clear Control
+keycode 37  = Super_L NoSymbol Super_L NoSymbol Super_L Super_L
+keycode 133 = Control_L NoSymbol Control_L NoSymbol Control_L Control_L
+add Control = Control_L
+add Mod4    = Super_L
