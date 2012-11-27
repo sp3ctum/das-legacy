@@ -1,3 +1,5 @@
+clear Lock
+
 keycode   8 =
 keycode   9 = Caps_Lock NoSymbol Caps_Lock
 keycode  10 = exclam 1 1 exclam section
