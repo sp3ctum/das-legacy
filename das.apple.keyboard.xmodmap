@@ -1,4 +1,6 @@
 clear Lock
+clear control
+clear mod4
 
 keycode   8 =
 keycode   9 = Caps_Lock NoSymbol Caps_Lock
@@ -29,6 +31,7 @@ keycode  33 = b B b B
 keycode  34 = q Q q Q
 keycode  35 = z Z z Z zcaron Zcaron
 keycode  36 = aring Aring aring Aring
+keycode  37 = Super_L NoSymbol Super_L
 keycode  37 = Control_L NoSymbol Control_L
 keycode  38 = s S s S scaron Scaron
 keycode  39 = l L l L dead_acute
@@ -125,7 +128,7 @@ keycode 129 = KP_Decimal KP_Decimal KP_Decimal KP_Decimal
 keycode 130 = Hangul NoSymbol Hangul
 keycode 131 = Hangul_Hanja NoSymbol Hangul_Hanja
 keycode 132 =
-keycode 133 = Super_L NoSymbol Super_L
+keycode 133 = Control_L NoSymbol Control_L
 keycode 134 = Super_R NoSymbol Super_R
 keycode 135 = Menu NoSymbol Menu
 keycode 136 = Cancel NoSymbol Cancel
@@ -248,3 +251,6 @@ keycode 252 =
 keycode 253 =
 keycode 254 =
 keycode 255 =
+
+add control = Control_L Control_R
+add mod4 = Super_L
