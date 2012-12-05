@@ -33,7 +33,6 @@ keycode  34 = q Q q Q
 keycode  35 = z Z z Z zcaron Zcaron
 keycode  36 = aring Aring aring Aring
 keycode  37 = Super_L NoSymbol Super_L
-keycode  37 = Control_L NoSymbol Control_L
 keycode  38 = s S s S scaron Scaron
 keycode  39 = l L l L dead_acute
 keycode  40 = n N n N dead_grave
