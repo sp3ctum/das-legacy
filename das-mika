@@ -5,18 +5,32 @@
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "das-mika" {
 
-    key <AE01> { [ 1, exclam, leftdoublequotemark, leftsinglequotemark ] };
-    key <AE02> { [ 2, quotedbl, rightdoublequotemark, rightsinglequotemark ] };
-    key <AE03> { [ 3, numbersign, sterling, NoSymbol ] };
-    key <AE04> { [ 4, dollar, dollar ] };
-    key <AE05> { [ 5, percent, EuroSign, cent, NoSymbol ] };
-    key <AE06> { [ 6, ampersand, yen, NoSymbol ] };
-    key <AE07> { [ 7, slash ] };
-    key <AE08> { [ 8, parenleft ] };
-    key <AE09> { [ 9, parenright ] };
-    key <AE10> { [ 0, equal ] };
-    key <AE11> { [ plus, question ] };
-    key <AE12> { [ grave, at, dead_acute, dead_grave ] };
+    key <AE01> {[ exclam, 1, section]};          // 1
+    key <AE02> {[ quotedbl, 2, twosuperior]};    // 2
+    key <AE03> {[ at, 3, sterling]};             // 3
+    key <AE04> {[ dollar, 4, EuroSign]};         // 4
+    key <AE05> {[ percent, 5, onehalf]};         // 5
+    key <AE06> {[ ampersand, 6]};                // 6
+    key <AE07> {[ braceleft, 7]};                // 7
+    key <AE08> {[ parenleft, 8, bracketleft]};   // 8
+    key <AE09> {[ parenright, 9, bracketright]}; // 9
+    key <AE10> {[ braceright, 0, degree]};       // 0
+    key <AE11> {[ question, plus, currency]};    // plus
+    key <AE12> {[ numbersign, equal]};           // dead_acute
+
+    // key <AE01> { [ 1, exclam, leftdoublequotemark, leftsinglequotemark ] };
+    // key <AE02> { [ 2, quotedbl, rightdoublequotemark, rightsinglequotemark ] };
+    // key <AE03> { [ 3, numbersign, sterling, NoSymbol ] };
+    // key <AE04> { [ 4, dollar, dollar ] };
+    // key <AE05> { [ 5, percent, EuroSign, cent, NoSymbol ] };
+    // key <AE06> { [ 6, ampersand, yen, NoSymbol ] };
+    // key <AE07> { [ 7, slash ] };
+    // key <AE08> { [ 8, parenleft ] };
+    // key <AE09> { [ 9, parenright ] };
+    // key <AE10> { [ 0, equal ] };
+    // key <AE11> { [ plus, question ] };
+    // key <AE12> { [ grave, at, dead_acute, dead_grave ] };
+
     key <BKSL> { [ apostrophe, asterisk ] };
     key <TLDE> { [ less, greater ] };
 
