@@ -110,7 +110,8 @@ xkb_symbols "das-mika" {
     // key <AB09> { [ period, colon ] };
     // key <AB10> { [ minus, underscore ] };
 
-    key <LWIN> { [ Super_L ] };
+    key <LCTL> { [ Super_L ] };
+    key <LWIN> { [ Control_L ] };
     key <LALT> { [ Meta_L ] };
     key <RALT> { [ Meta_R ] };
     key <RWIN> { [ ISO_Level3_Shift ] };
