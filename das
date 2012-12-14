@@ -17,18 +17,18 @@
 partial
 xkb_symbols "dasfi" {
 
-    key <AE01>  { [         1, exclam, section ] }; // 1
-    key <AE02>  { [         2, quotedbl, twosuperior ] }; // 2
-    key <AE03>  { [         3, at, sterling ] }; // 3
-    key <AE04>  { [         4, dollar, EuroSign ] }; // 4
-    key <AE05>  { [         5, percent, onehalf ] }; // 5
-    key <AE06>  { [         6, ampersand ] }; // 6
-    key <AE07>  { [         7, braceleft ] }; // 7
-    key <AE08>  { [         8, parenleft,  bracketleft ]        }; // 8
-    key <AE09>  { [         9, parenright, bracketright ]       }; // 9
-    key <AE10>  { [         0, braceright, degree ] }; // 0
-    key <AE11>  { [     plus, question, currency ] }; // plus
-    key <AE12>  { [     equal, numbersign ]     }; // dead_acute
+    key <AE01> {[ 1,     exclam    , section ] }; // 1
+    key <AE02> {[ 2,     quotedbl  , twosuperior ] }; // 2
+    key <AE03> {[ 3,     at        , sterling ] }; // 3
+    key <AE04> {[ 4,     dollar    , EuroSign ] }; // 4
+    key <AE05> {[ 5,     percent   , onehalf ] }; // 5
+    key <AE06> {[ 6,     ampersand ] }; // 6
+    key <AE07> {[ 7,     braceleft ] }; // 7
+    key <AE08> {[ 8,     parenleft ,  bracketleft ]        }; // 8
+    key <AE09> {[ 9,     parenright, bracketright ]       }; // 9
+    key <AE10> {[ 0,     braceright, degree ] }; // 0
+    key <AE11> {[ plus,  question  , currency ] }; // plus
+    key <AE12> {[ equal, numbersign ]     }; // dead_acute
 
     key <AD01>  { [         p,          P,  Greek_pi ]  }; // q
     key <AD02>  { [         h,          H ]     }; // w
@@ -56,19 +56,19 @@ xkb_symbols "dasfi" {
     key <AC11>  { [         c,          C ]     }; // adiaeresis
     key <TLDE>  { [ backslash, dead_tilde ]     }; // section
 
-    key <BKSL>  { [  slash,      asterisk ]     }; // apostrophe
+    key <BKSL>  { [  slash   ,      asterisk ]     }; // apostrophe
     key <LSGT>  { [         f,          F ] }; // less
     key <AB01>  { [         x,          X ]     }; // z
     key <AB02>  { [         d,          D ]     }; // x
     key <AB03>  { [         m,          M, mu ] }; // c
     key <AB04>  { [         j,          J ]     }; // v
     key <AB05>  { [     aring,      Aring ] }; // b
-    key <AB06>  { [odiaeresis, Odiaeresis, oe, OE ]     }; // n
-    key <AB07>  { [adiaeresis, Adiaeresis, ae, AE ]     }; // m
+    key <AB06>  { [odiaeresis, Odiaeresis, oe    , OE ]     }; // n
+    key <AB07>  { [adiaeresis, Adiaeresis, ae    , AE ]     }; // m
     key <AB08>  { [     comma,  semicolon ]     }; // comma
     key <AB09>  { [    period,      colon ]     }; // period
-    key <AB10>  { [     minus, underscore, U2013, dead_macron ] }; // minus
-    key <SPCE>  { [     space,      space, space, nobreakspace  ] }; // space
+    key <AB10>  { [     minus, underscore, U2013 , dead_macron ] }; // minus
+    key <SPCE>  { [     space,      space, space , nobreakspace  ] }; // space
 
 include "altwin(meta_alt)"
 include "level3(ralt_switch)"
