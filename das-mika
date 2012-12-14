@@ -26,7 +26,7 @@ xkb_symbols "das-mika" {
     key <AD03> { [ r, R, dead_circumflex]}; // e
     key <AD04> { [ k, K, dead_caron]};      // r
     key <AD05> { [ less, greater]};         // t
-    key <AD06> { [ apostrophe, bar]};       // y
+    key <AD06> { [ BackSpace, bar]};       // y
     key <AD07> { [ w, W]};                  // u
     key <AD08> { [ u, U]};                  // i
     key <AD09> { [ y, Y]};                  // o
@@ -65,6 +65,7 @@ xkb_symbols "das-mika" {
     key <LALT> { [ Meta_L ] };
     key <RALT> { [ Meta_R ] };
     key <RWIN> { [ ISO_Level3_Shift ] };
+    key <BKSP> { [ apostrophe, bar ] };
 
     modifier_map Mod1 { Meta_L, Meta_R };
     modifier_map Mod4 { Super_L };
