@@ -51,7 +51,7 @@ xkb_symbols "das-mika" {
     key <AB02> { [ d, D ] }; // x
     key <AB03> { [ m, M, mu ] }; // c
     key <AB04> { [ j, J ] }; // v
-    key <AB05> { [ aring, Aring ] }; // b
+    key <AB05> { [ Return, Return ] }; // b
     key <AB06> { [ odiaeresis, Odiaeresis, oe , OE ] }; // n
     key <AB07> { [ adiaeresis, Adiaeresis, ae , AE ] }; // m
     key <AB08> { [ comma, semicolon ] }; // comma
@@ -59,6 +59,7 @@ xkb_symbols "das-mika" {
     key <AB10> { [ minus, underscore, U2013 , dead_macron ] }; // minus
     key <SPCE> { [ space, space, space , nobreakspace ] }; // space
 
+    key <RTRN> { [ aring, Aring ] };
     key <LCTL> { [ Super_L ] };
     key <LWIN> { [ Control_L ] };
     key <LALT> { [ Meta_L ] };
