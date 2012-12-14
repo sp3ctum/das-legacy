@@ -71,3 +71,5 @@ xkb_symbols "das-mika" {
     modifier_map Mod4 { Super_L };
     modifier_map Mod5 { ISO_Level3_Shift };
 };
+
+    include "capslock(swapescape)"
