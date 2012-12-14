@@ -16,7 +16,7 @@ xkb_symbols "das-mika" {
     key <AE09> {[ parenright, 9, bracketright]}; // 9
     key <AE10> {[ braceright, 0, degree]};       // 0
     key <AE11> {[ question, plus, currency]};    // plus
-    key <AE12> {[ numbersign, equal]};           // dead_acute
+    key <AE12> {[ equal, numbersign]};           // dead_acute
 
     // key <AE01> { [ 1, exclam, leftdoublequotemark, leftsinglequotemark ] };
     // key <AE02> { [ 2, quotedbl, rightdoublequotemark, rightsinglequotemark ] };
