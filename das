@@ -17,18 +17,18 @@
 partial
 xkb_symbols "dasfi" {
 
-    key <AE01> {[ 1,     exclam    , section ] }; // 1
-    key <AE02> {[ 2,     quotedbl  , twosuperior ] }; // 2
-    key <AE03> {[ 3,     at        , sterling ] }; // 3
-    key <AE04> {[ 4,     dollar    , EuroSign ] }; // 4
-    key <AE05> {[ 5,     percent   , onehalf ] }; // 5
-    key <AE06> {[ 6,     ampersand ] }; // 6
-    key <AE07> {[ 7,     braceleft ] }; // 7
-    key <AE08> {[ 8,     parenleft ,  bracketleft ]        }; // 8
-    key <AE09> {[ 9,     parenright, bracketright ]       }; // 9
-    key <AE10> {[ 0,     braceright, degree ] }; // 0
-    key <AE11> {[ plus,  question  , currency ] }; // plus
-    key <AE12> {[ equal, numbersign ]     }; // dead_acute
+    key <AE01> {[ exclam    , 1,     section ] }; // 1
+    key <AE02> {[ quotedbl  , 2,     twosuperior ] }; // 2
+    key <AE03> {[ at        , 3,     sterling ] }; // 3
+    key <AE04> {[ dollar    , 4,     EuroSign ] }; // 4
+    key <AE05> {[ percent   , 5,     onehalf ] }; // 5
+    key <AE06> {[ ampersand , 6]     }; // 6
+    key <AE07> {[ braceleft , 7]     }; // 7
+    key <AE08> {[ parenleft , 8,      bracketleft ]        }; // 8
+    key <AE09> {[ parenright, 9,     bracketright ]       }; // 9
+    key <AE10> {[ braceright, 0,     degree ] }; // 0
+    key <AE11> {[ question  , plus,  currency ] }; // plus
+    key <AE12> {[ numbersign, equal]      }; // dead_acute
 
     key <AD01>  { [         p,          P,  Greek_pi ]  }; // q
     key <AD02>  { [         h,          H ]     }; // w
