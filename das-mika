@@ -2,6 +2,33 @@
 // Changing Keyboard Layouts with XKB
 // http://www.hack.org/mc/writings/xkb.html
 
+// This layout is not completely defined here!
+// Lots of things affect the layout as side effects.
+// These include the current keyboard type - I think my default type
+// is a pc105 - a standard PC keyboard with 105 keys.
+// To view the full layout, use these commands:
+//
+// Copy this file to the symbols directory:
+//   sudo cp das-mika /usr/share/X11/xkb/symbols/
+// The keyboard layouts are compiled when we take them into use. Any
+// changes to the source code will not take effect until a
+// recompilation. A recompilation can be forced with this command:
+//   sudo rm /var/lib/xkb/*
+// Take this layout into use, also forcing a compilation of the layout
+//   setxkbmap das-mika
+//
+// Optional, useful for debugging: 
+// Dump everything regarding the current layout.
+//   xkbcomp $DISPLAY xkb.dump
+//   emacsclient xkb.dump
+// Take changes into use. Beware: using the dump file might lose
+// portability!
+//   xkbcomp xkb.dump $DISPLAY
+//
+// Also useful:
+// Print an image of the currently active configuration.
+//   xkbprint -ll 1 :0.0
+
 default partial alphanumeric_keys modifier_keys
 xkb_symbols "das-mika" {
 
