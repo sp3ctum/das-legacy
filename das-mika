@@ -97,8 +97,8 @@ xkb_symbols "das-mika" {
     modifier_map Mod1 { Meta_L, Meta_R };
     modifier_map Mod4 { Super_L };
     modifier_map Mod5 { ISO_Level3_Shift };
-};
 
     // These are extra rules that can be found in the directory
     // /usr/share/X11/xkb/rules/
     include "capslock(swapescape)"
+};
