@@ -90,7 +90,7 @@ xkb_symbols "das-mika" {
     key <LCTL> { [ Super_L ] };
     key <LWIN> { [ Control_L ] };
     key <LALT> { [ Meta_L ] };
-    key <RALT> { [ Meta_R ] };
+    key <RALT> { [ Super_R, Super_R ] };
     key <RWIN> { [ ISO_Level3_Shift ] };
     key <BKSP> { [ apostrophe, bar ] };
 
