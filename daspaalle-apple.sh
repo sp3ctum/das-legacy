@@ -1,3 +1,3 @@
 #!/bin/bash
-setxkbmap das
+setxkbmap das-mika
 xmodmap ~/koodi/das/apple-keyboard-fix.Xmodmap
